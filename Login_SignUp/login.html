@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Footer/footer.css">
-    <link rel="stylesheet" href="/landinPage/homepage.css">
     <link rel="icon" href="https://logodix.com/logo/819894.jpg">
-    <script src="https://kit.fontawesome.com/f612f4d575.js" crossorigin="anonymous"></script>
-    <title>Bath & Body Works: Body Care & Home Fragrances You'll Love</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>My Account | Bath & Body Works</title>
 </head>
 <body>
-    <!---------------------------------------------- nav-bar starts here ------------------------------------------------>
     <div id="top-wrap">
         <div id="blue-strip"></div>
     <div class="wrap">
@@ -55,7 +52,7 @@
     <nav>
         <ul class="nav-links">
             <div id='close-btn'><img src="https://www.bathandbodyworks.com/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw57a458d6/images/svg-icons/UI-Close-blue.svg" height="20px"></div>
-            <li id="nav-dropdown0"><a href="/body care/new_body_care.html">BODY CARE</a>
+            <li id="nav-dropdown0"><a href="#">BODY CARE</a>
                 <div class="drop">
                     <ul class="category">
                         <li class="nav-sub-dropdown">FEATURED
@@ -123,7 +120,7 @@
                     </div>
                 </div>
             </li>
-            <li id="nav-dropdown1"><a href="/home_fragrance/fragrance.html">HAND SOAP &amp; SANITIZERS</a>
+            <li id="nav-dropdown1"><a href="#">HAND SOAP &amp; SANITIZERS</a>
                 <div class="drop">
                     <ul class="category">
                         <li class="nav-sub-dropdown">FEATURED
@@ -312,129 +309,51 @@
             <li><a href="offers.html">TOP OFFERS</a></li>
         </ul>
     </nav>
+    <!------------------------------------- nav-bar ends here ------------------------------------------------------->
     <div class="mainContainer">
-        <!-------------------------- Image Change Time Out ------------------------------>
-        <div id="timeoutImage">
-            <img id="changeImage" src="https://www.bathandbodyworks.com/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw53fc7de3/images/Spring2021/diff_room_SP2_0_hm_2.jpg" class="img">
-            <div class="buttonCtrl" id="buttonCtrl">
-                <i id="pBtn" class="fas fa-pause-circle"></i>
+        <p class="locationLogin"><a href="/index.html">Home</a>/ SIGN IN OR SIGN UP</p>
+        <div class="inputContainer">
+            <div class="topPoster">
+                <img src="https://www.bathandbodyworks.com/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw67bc4699/images/banners/sign-in_d.png" class="img" alt="">
             </div>
-        </div>
-        <!-------------------------- Offers Page ----------------------------------------->
-        <div class="tOffer">
-            <div class="oContainer">
-                <div class="navBtn1">
-                    <i id="leftOfferBtn" class="fas fa-chevron-left"></i>
-                </div>
-                <div class="cardDisplayCor">
-                    <div class="oTitle">
-                        <strong>TODAY'S TOP OFFERS</strong>
-                    </div>
-                    <div id="displayOfferData">
-                    </div>
-                </div>
-                <div class="navBtn2">
-                    <i id="rightOfferBtn" class="fas fa-chevron-right"></i>
-                </div>
+            <div class="topHeading">
+                <h2>Sign In or Sign Up</h2>
             </div>
-        </div>
-        <!----------------------------- Top Banner Div ------------------------------------>
-        <div class="midImage">
-            <img src="https://www.bathandbodyworks.com/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw908d99ea/images/Spring2021/cndl_single-wicks_SP2_0_hm.jpg" class="img" alt="">
-        </div>
-        <!------------------------------ Top Banner Video and pagination --------------------->
-        <div class="midImgPageI">
-            <div class="midVideoImgBox">
-                <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5653785988001/d01e0070-d6dd-440f-847a-630f05a5c107/46800f0b-1f3e-4ab9-90fd-ae591942cd43/1280x720/match/image.jpg" class="img" alt="">
-            </div>
-            <div class="productInfoCaro">
-                <div class="productInfoCaro_Title">
-                    <p class="cursive">Today’s itinerary:</p>
-                    <p class="normal_Title">Find your tropical paradise</p>
-                    <p class="normal_Descp">From Fiji to Waikiki, these breezy, fruity, bright fragrances will take you places.</p>
+            <div class="loginSignBox">
+                <div>
+                    <div class="loginSignBox_left">
+                        <div class="loginSignBox_left_title">
+                            <p>SIGN IN</p>
+                            <p>If you already have an account with us, sign in below</p>
+                        </div>
+                        <div class="loginSignBox_left_input">
+                            <label>Email Address</label><br>
+                            <input type="text" id="loginEmailVal"><br>
+                            <label>Password</label><br>
+                            <input type="password" id="loginPassVal"><br>
+                            <a href="#">Forgot Password?</a><br>
+                            <button id="loginBtn">SIGN IN</button>
+                        </div>
+                    </div>
+                    <div class="roundDiv"><h3>OR</h3></div>
                 </div>
-                <div class="displayProductItemDiv">
-                    <div id="pNavBtn1">
-                        <i class="fas fa-chevron-left"></i>
-                    </div>
-                    <div id="displayProduct">
-                    </div>
-                    <div id="pNavBtn2">
-                        <i class="fas fa-chevron-right"></i>
+                <div>
+                    <div class="loginSignBox_left">
+                        <div class="loginSignBox_left_title">
+                            <p>SIGN UP</p>
+                            <p>Create an account to access the best of your favorite store</p>
+                        </div>
+                        <div class="loginSignBox_left_input1">
+                            <div class="loginSignBox_left_input1_Img">
+                                <img src="https://www.bathandbodyworks.com/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwf946a6ac/images/loyalty/July19/nonloyalty_5thmkt_signuptile_D.png" class="img" alt="">
+                            </div>
+                            <button id="createAccount">CREATE AN ACCOUNT</button>
+                        </div>
                     </div>
                 </div>
-                <a class="shopNewLink" href="#">SHOP NEW ARRIVALS</a>
             </div>
         </div>
-        <!------------------------------------------- Modal For Products ------------------------------------------------>
-        <div id="myModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div id="DisplayModalProductData"><p>Some text in the Modal..</p></div>
-            </div>
-
-        </div>
-        <!----------------------------------------- Mid Banner Poster --------------------------------------------------->
-        <div id="hompageMidPoster"></div>
-
-        <div id="bottomBannerImage">
-            <img src="https://www.bathandbodyworks.com/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw408d6071/images/Spring2021/xcat_v1-easter_SP2_0_hb.jpg" class="img" alt="">
-            <button class="boxBtn1">SHOP EASTER GIFTS</button>
-            <button class="boxBtn2">SHOP GIFT CARDS</button>
-        </div>
-        <!--------------------------------------- Shop By Category ------------------------------------------------------>
-        <div class="lowerPartition">
-            <div class="dashedBar1"></div>
-            <div class="dashedBar_text"><strong>SHOP BY CATEGORY</strong></div>
-            <div class="dashedBar2"></div>
-        </div>
-        <div id="shopByCata"></div>
-        <!------------------------------------- Bottom Commitment Banner ------------------------------------------------->
-        <div id="displayCommitBanner">
-            <img src="https://www.bathandbodyworks.com/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw3887bd69/images/Spring2021/xcat_women-history_SP2_0_hb.jpg" class="img" alt="">
-        </div>
-        <!--------------------------------------- Display Safety Banner -------------------------------------------------->
-        <div id="displayCommitBanner">
-            <img src="https://www.bathandbodyworks.com/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw9db845e7/images/Fall2020/xcat_safe-shop-up_fa1_0_hb.jpg" class="img" alt="">
-        </div>
-        <!---------------------------------------- Lower Partition ------------------------------------------------------->
-        <div class="lowerPartition1">
-            <div class="dashedBar1_1"></div>
-            <div class="dashedBar_text1">
-                <strong id="instaTitle"><i id="instaImage" class="fab fa-instagram"> </i>@BATHANDBODYWORKS</strong>
-                <p>Daily inspiration. Instant happiness. Right here.</p>
-            </div>
-            <div class="dashedBar2_2"></div>
-        </div>
-        <!-------------------------------------- Work at Bath & Body Shop ----------------------------------------------->
-        <div class="tOffer">
-            <div class="oContainer">
-                <div class="navBtn1">
-                    <i id="leftOfferBtn1" class="fas fa-chevron-left"></i>
-                </div>
-                <div class="cardDisplayCor1">
-                    <div id="displayOfferData1"></div>
-                </div>
-                <div class="navBtn2">
-                    <i id="rightOfferBtn1" class="fas fa-chevron-right"></i>
-                </div>
-            </div>
-        </div>
-        <!------------------------------------------- About Bath & Body Works -------------------------------------------->
-        <div class="bottomDesc">
-            <h1>Bath & Body Works</h1><br>
-            <p>Bath and Body Works is your go-to place for gifts & goodies that surprise & delight. From fresh fragrances to soothing skin care, we make finding your perfect something special a happy-memory-making experience. Searching for new seasonal creations or your favorite discontinued scents? We’ve got you covered there, too. Oh! And while you're browsing, shop our latest & greatest selection of lotions, soaps and candles!</p>
-        </div>
-        <!-------------------------------------------- Added to cart modal ---------------------------------------------->
-        <div id="myModal1" class="modal1">
-            <!-- Modal content -->
-            <div class="modal-content1">
-              <span class="close1">&times;</span>
-              <div id="cartAddModal"></div>
-            </div>
-        </div>
-        <!---------------------------------------- Footer code starts here -------------------------------------------->
+        <!--------------------------------------- footer starts here --------------------------------------------------->
         <footer>
             <div class="footer-links">
                 <div class="col col-1">
@@ -504,7 +423,7 @@
                    </ul>
                </div>
             </div>
-            <div class="footer-img"><img class="img" src="/assets/Happiness_Guaranteedtimes2_v2.jpg"></div>
+            <div class="footer-img"><img src="/assets/Happiness_Guaranteedtimes2_v2.jpg"></div>
             <div class="end">
                 <ul>
                   <li>Site Map </li> 
@@ -517,15 +436,15 @@
                 </ul>
                 <p id='copy'>© 2021 Bath & Body Works Direct, Inc. All Rights Reserved.</p>
             </div>
-       </footer>    
+       </footer>
     </div>
-    <script src="/landinPage/homepage.js"></script>
-    <!-- <script>
+    <script src="login.js"></script>
+    <script>
         let account_drop_btn = document.getElementById('myAccount');
         let dropAccount = document.getElementById('account');
         account_drop_btn.addEventListener('click',()=>{
             dropAccount.classList.toggle('open_account')
         })
-    </script> -->
+    </script>
 </body>
 </html>
